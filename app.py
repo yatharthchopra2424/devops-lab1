@@ -9,3 +9,6 @@ def farewell(name):
 
 def farewell(name):
     return f"Goodbye, {name}!"
+
+def shout(name):
+    return greet(name).upper()
